@@ -1,0 +1,17 @@
+{
+  "name": "b27playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "testingqa": "npx playwright test tests/login.spec.js --config playwright.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.4",
+    "playwright": "^1.51.0"
+  }
+}
